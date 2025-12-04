@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const TextureFilter = ({ id }: { id: string }) => (
   <filter id={id} x="-20%" y="-20%" width="140%" height="140%">
     <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" />
