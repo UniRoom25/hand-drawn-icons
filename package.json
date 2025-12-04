@@ -1,0 +1,29 @@
+{
+  "name": "@uniroom/hand-drawn-icons",
+  "version": "1.0.0",
+  "description": "A set of organic, hand-drawn SVG icons for React",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format cjs,esm --dts",
+    "lint": "eslint src/**/*.tsx"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0",
+    "@types/react": "^18.0.0"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "hand-drawn",
+    "organic"
+  ],
+  "author": "UniRoom",
+  "license": "MIT"
+}
